@@ -24,5 +24,15 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 1em;
+}
+
+h1 {
+  font-family: Bonjour;
+  font-size: 4em;
+  text-align: center;
+}
+
+.feature-img {
+  width: 100%;
 }
