@@ -33,6 +33,21 @@ h1 {
   text-align: center;
 }
 
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  color: black;
+}
+
+li a:hover {
+  color: pink;
+}
+
+
 .feature-img {
   width: 100%;
 }
