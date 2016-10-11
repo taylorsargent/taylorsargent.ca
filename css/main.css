@@ -31,6 +31,7 @@ h1 {
   font-family: Bonjour;
   font-size: 4em;
   text-align: center;
+  color: #808082;
 }
 
 ul {
@@ -40,11 +41,16 @@ ul {
 
 li {
   display: inline-block;
+  padding: .25em;
+}
+
+li a {
+  text-decoration: none;
   color: black;
 }
 
 li a:hover {
-  color: pink;
+  color: #f3dad3;
 }
 
 
