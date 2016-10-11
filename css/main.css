@@ -53,8 +53,11 @@ li a:hover {
   color: #f3dad3;
 }
 
-
 .feature-img {
+  width: 100%;
+}
+
+.feature-img-2 {
   width: 50%;
   margin-left: 25%;
 }
@@ -85,7 +88,8 @@ li a:hover {
 }
 
 .port-img {
-  width: 30%;
+  width: 60%;
+  margin-left: 20%;
 }
 
 footer p {
