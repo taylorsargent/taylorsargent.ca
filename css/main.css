@@ -55,7 +55,14 @@ li a:hover {
 
 
 .feature-img {
-  width: 100%;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.about {
+  text-align: center;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 .social {
@@ -79,10 +86,6 @@ li a:hover {
 
 .port-img {
   width: 30%;
-}
-
-footer {
-  background-color: pink;
 }
 
 footer p {
