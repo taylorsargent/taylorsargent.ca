@@ -72,10 +72,30 @@ li a:hover {
 
 .social-icons {
   padding-top: 0;
-  text-align: center;
   border: 0;
+  width: 50%;
+  float: left;
 }
 
 .port-img {
   width: 30%;
+}
+
+footer {
+  background-color: pink;
+}
+
+footer p {
+  float: right;
+  font-size: .75em;
+}
+
+.email {
+  text-decoration: none;
+  color: #f3dad3;
+}
+
+.phone {
+  text-decoration: none;
+  color: #f3dad3;
 }
