@@ -28,10 +28,14 @@ body {
 }
 
 h1 {
-  font-family: Bonjour;
-  font-size: 4em;
+  font-family: Didot;
+  font-size: 2.5em;
   text-align: center;
   color: #808082;
+}
+
+p {
+  font-family: Gill Sans;
 }
 
 ul {
@@ -42,6 +46,8 @@ ul {
 li {
   display: inline-block;
   padding: .25em;
+  font-family: Gill Sans;
+  font-weight: lighter;
 }
 
 li a {
@@ -105,4 +111,42 @@ footer p {
 .phone {
   text-decoration: none;
   color: #f3dad3;
+}
+
+@media only screen and (min-width: 40.5em) {
+  h1 {
+    font-size: 3.5em;
+  }
+
+  .feature-img {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+
+
+}
+
+@media only screen and (min-width: 90em) {
+  h1 {
+    font-size: 4.5em;
+  }
+
+  li {
+    font-size: 1.25em;
+    padding: 1em;
+  }
+
+  .feature-img {
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  .social {
+    display: inline-block;
+    width: 10%;
+    border: 0;
+    margin-left: 5%;
+  }
+
 }
