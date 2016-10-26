@@ -84,6 +84,10 @@ li a:hover {
   padding: 1em;
 }
 
+#contact {
+  padding: 1em;
+}
+
 .social {
   display: inline-block;
   width: 20%;
@@ -92,15 +96,14 @@ li a:hover {
 
 .social img {
   display: inline-block;
-  width: 100%;
+  width: 60%;
   border: 0;
 }
 
 .social-icons {
-  padding-top: 0;
   border: 0;
-  width: 50%;
-  float: left;
+  width: 100%;
+  text-align: center;
 }
 
 .port-img {
@@ -117,8 +120,9 @@ li a:hover {
 }
 
 footer p {
-  float: right;
-  font-size: .75em;
+  font-size: 1em;
+  text-align: center;
+  font-weight: lighter;
 }
 
 .email {
