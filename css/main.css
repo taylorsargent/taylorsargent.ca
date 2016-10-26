@@ -24,12 +24,12 @@ html {
 
 body {
   margin: 0;
-  padding: 1em;
+  padding: em;
 }
 
 h1 {
   font-family: Didot;
-  font-size: 2.5em;
+  font-size: 3em;
   text-align: center;
   color: #808082;
 }
@@ -61,6 +61,7 @@ li a:hover {
 
 .feature-img {
   width: 100%;
+  padding: 1em;
 }
 
 .feature-img-2 {
@@ -73,6 +74,14 @@ li a:hover {
   padding-left: 1.5em;
   padding-right: 1.5em;
   font-weight: lighter;
+}
+
+#about {
+  padding: 1em;
+}
+
+#portfolio {
+  padding: 1em;
 }
 
 .social {
@@ -95,8 +104,16 @@ li a:hover {
 }
 
 .port-img {
-  width: 60%;
-  margin-left: 20%;
+  width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.port-text {
+  text-align: left;
+  font-weight: lighter;
+  padding-left: 1em;
+  padding-bottom: 1em;
 }
 
 footer p {
@@ -112,6 +129,14 @@ footer p {
 .phone {
   text-decoration: none;
   color: #f3dad3;
+}
+
+.pink {
+  background-color: #FBEAE3;
+}
+
+.grey {
+  background-color: #E7E8EA;
 }
 
 @media only screen and (min-width: 40.5em) {
