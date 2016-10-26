@@ -146,6 +146,7 @@ footer p {
 @media only screen and (min-width: 40.5em) {
   h1 {
     font-size: 3.5em;
+    color: blue;
   }
 
   .feature-img {
@@ -153,15 +154,21 @@ footer p {
     margin-left: 10%;
   }
 
+  .feature-img-2 {
+    width: 75%;
+    padding-bottom: 2em;
+  }
+
   .about {
-    padding-left: 4em;
-    padding-right: 4em;
+  font-size: 1.1em;
+  text-align: left;
   }
 }
 
 @media only screen and (min-width: 90em) {
   h1 {
     font-size: 4.5em;
+    color: red;
   }
 
   li {
