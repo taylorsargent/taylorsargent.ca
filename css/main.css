@@ -31,7 +31,11 @@ h1 {
   font-family: Didot;
   font-size: 3em;
   text-align: center;
-  color: #808082;
+  color: #363636;
+}
+
+h2 {
+  color: #363636;
 }
 
 p {
