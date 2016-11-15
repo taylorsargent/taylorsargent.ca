@@ -92,6 +92,16 @@ li a:hover {
   padding: 1em;
 }
 
+.info {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+}
+
+.info:hover {
+  color: #f3dad3;
+}
+
 .social {
   display: inline-block;
   width: 20%;
