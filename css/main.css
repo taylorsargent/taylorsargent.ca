@@ -39,12 +39,13 @@ h2 {
 }
 
 p {
-  font-family: Gill Sans;
+  font-family: Gill Sans, sans-serif;
 }
 
 ul {
   list-style-type: none;
   text-align: center;
+  padding-left: 0;
 }
 
 li {
