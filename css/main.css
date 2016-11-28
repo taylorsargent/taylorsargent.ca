@@ -81,6 +81,15 @@ li a:hover {
   font-weight: lighter;
 }
 
+figure {
+  width: 100%;
+  margin: 0;
+}
+
+figcaption {
+  text-align: center;
+}
+
 #about {
   padding: 1em;
 }
@@ -111,7 +120,7 @@ li a:hover {
 
 .social img {
   display: inline-block;
-  width: 60%;
+  width: 40%;
   border: 0;
 }
 
