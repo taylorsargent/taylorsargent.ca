@@ -88,6 +88,7 @@ figure {
 
 figcaption {
   text-align: center;
+  padding: 1em;
 }
 
 #about {
@@ -143,7 +144,7 @@ figcaption {
   padding-bottom: 1em;
 }
 
-footer p {
+.contact p {
   font-size: 1em;
   text-align: center;
   font-weight: lighter;
@@ -165,6 +166,16 @@ footer p {
 
 .grey {
   background-color: #E7E8EA;
+}
+
+footer {
+  padding: .5em;
+}
+
+footer p {
+  font-weight: lighter;
+  text-align: center;
+  margin: .5em;
 }
 
 @media only screen and (min-width: 40.5em) {
