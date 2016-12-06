@@ -28,7 +28,7 @@ body {
 }
 
 h1 {
-  font-family: Didot;
+  font-family: Didot, serif;
   font-size: 3em;
   text-align: center;
   color: #363636;
@@ -51,7 +51,7 @@ ul {
 li {
   display: inline-block;
   padding: .25em;
-  font-family: Gill Sans;
+  font-family: Gill Sans, sans-serif;
   font-weight: lighter;
 }
 
@@ -121,7 +121,7 @@ figcaption {
 
 .social img {
   display: inline-block;
-  width: 40%;
+  width: 30%;
   border: 0;
 }
 
@@ -152,11 +152,19 @@ figcaption {
 
 .email {
   text-decoration: none;
+  color: black;
+}
+
+.email:hover {
   color: #f3dad3;
 }
 
 .phone {
   text-decoration: none;
+  color: black;
+}
+
+.phone:hover {
   color: #f3dad3;
 }
 
