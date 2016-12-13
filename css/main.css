@@ -36,6 +36,7 @@ h1 {
 
 h2 {
   color: #363636;
+  padding: 1em;
 }
 
 p {
@@ -88,18 +89,6 @@ figure {
 
 figcaption {
   text-align: center;
-  padding: 1em;
-}
-
-#about {
-  padding: 1em;
-}
-
-#portfolio {
-  padding: 1em;
-}
-
-#contact {
   padding: 1em;
 }
 

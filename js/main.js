@@ -1,0 +1,3 @@
+$('.nav').localScroll({
+  target: 'body' 
+});
