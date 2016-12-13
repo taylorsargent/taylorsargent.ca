@@ -62,14 +62,20 @@
   <h2 id="portfolio">Portfolio</h2>
 
   <div class="grid row">
-
-    <div class="unit xs-1 s-1-2 m-1-3 l-1-4">
+      <div class="unit xs-1 s-1-2 m-1-3 l-1-4">
         <img class="port-img" src="images/port-img.jpg" alt="close up CHEO booklet">
       <div class="port-text">
       <h3>CHEO Booklet Layout</h3>
       <p>Layout redesign of CHEO booklet handed out to sponsers. <a href="#port-img-1" class="info">See more</a></p>
       </div>
     </div>
+
+    <div id=”blanket” style=”display:none;”></div>
+    <div id=”popUpDiv” style=”display:none;”>
+    <a href=”#” onclick=”popup(‘popUpDiv’)”>Click Me To Close</a>
+    </div>
+    <a href=”#” onclick=”popup(‘popUpDiv’)”>Click Here To Open The Pop Up</a>
+
 
     <a href="#_" class="lightbox" id="port-img-1">
       <img src="images/portfolio-img-1.jpg" alt="cheo booklet mockups">
