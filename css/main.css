@@ -113,6 +113,32 @@ figcaption {
   color: #f3dad3;
 }
 
+/**Lightbox CSS**/
+.lightbox {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  margin-top: 5%;
+}
+
+.lightbox:target {
+  outline: none;
+  display:block;
+}
+
+
+
+
+
 .social {
   display: inline-block;
   width: 20%;
