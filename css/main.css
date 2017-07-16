@@ -29,7 +29,7 @@ body {
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 3em;
   text-align: center;
   color: #363636;
@@ -37,12 +37,24 @@ h1 {
 
 h2 {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   color: #363636;
   padding: 1em;
 }
 
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+}
+
 p {
   font-family: 'Yrsa', serif;
+}
+
+.nav {
+  background-color: black;
+  padding: 0.1em;
 }
 
 ul {
@@ -54,13 +66,14 @@ ul {
 li {
   display: inline-block;
   padding: .25em;
-  font-family: Gill Sans, sans-serif;
-  font-weight: lighter;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 
 li a {
   text-decoration: none;
-  color: black;
+  color: white;
+  padding: 0.5em;
 }
 
 li a:hover {
@@ -69,7 +82,6 @@ li a:hover {
 
 .feature-img {
   width: 100%;
-  padding: 1em;
 }
 
 .feature-img-2 {
@@ -171,21 +183,17 @@ li a:hover {
   color: #f3dad3;
 }
 
-.pink {
-  background-color: #FBEAE3;
-}
-
-.grey {
-  background-color: #E7E8EA;
-}
-
 footer {
   padding: .5em;
+  background-color: black;
 }
 
 footer p {
-  font-weight: lighter;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 0.75em;
   text-align: center;
+  color: white;
   margin: .5em;
 }
 
