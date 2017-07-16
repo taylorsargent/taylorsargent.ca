@@ -28,19 +28,21 @@ body {
 }
 
 h1 {
-  font-family: Didot, serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
   font-size: 3em;
   text-align: center;
   color: #363636;
 }
 
 h2 {
+  font-family: 'Montserrat', sans-serif;
   color: #363636;
   padding: 1em;
 }
 
 p {
-  font-family: Gill Sans, sans-serif;
+  font-family: 'Yrsa', serif;
 }
 
 ul {
