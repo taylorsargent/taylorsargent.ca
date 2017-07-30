@@ -27,25 +27,23 @@ body {
   padding: em;
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 3em;
-  text-align: center;
-  color: #363636;
+.logo{
+  width: 80%;
+  padding: 1em;
+  margin-left: 3.5em;
+  margin-top: 2em;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-family: 'Yrsa', serif;
   color: #363636;
   margin-left: 0.5em;
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  font-size: 1em;
+  font-family: 'Yrsa', serif;
+  font-weight: bold;
+  font-size: 1.25em;
 }
 
 p {
@@ -53,7 +51,6 @@ p {
 }
 
 .nav {
-  background-color: black;
   padding: 0.1em;
 }
 
@@ -66,14 +63,13 @@ ul {
 li {
   display: inline-block;
   padding: .25em;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-family: 'Yrsa', serif;
 }
 
 li a {
   text-decoration: none;
-  color: white;
-  padding: 0.5em;
+  color: black;
+  padding: 0.25em;
 }
 
 li a:hover {
@@ -85,12 +81,12 @@ li a:hover {
 }
 
 .feature-img-2 {
-  width: 100%;
-  margin-left: 25%;
+  width: 75%;
+  margin-left: 15%;
 }
 
 .about {
-  text-align: center;
+  text-align: left;
   padding-left: 1.5em;
   padding-right: 1.5em;
   font-weight: lighter;
@@ -183,18 +179,9 @@ li a:hover {
   color: #f3dad3;
 }
 
-footer {
-  padding: .5em;
-  background-color: black;
-}
-
-footer p {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  font-size: 0.75em;
-  text-align: center;
-  color: white;
-  margin: .5em;
+.footer {
+  width: 70%;
+  margin-left: 4em;
 }
 
 @media only screen and (min-width: 40.5em) {
